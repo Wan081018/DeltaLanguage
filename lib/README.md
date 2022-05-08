@@ -1,1 +1,1 @@
-__libs__
+__libraries__
