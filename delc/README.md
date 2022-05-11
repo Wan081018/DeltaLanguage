@@ -1,1 +1,1 @@
-__compiler__
+This is the compiler of Delta Language.  
