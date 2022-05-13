@@ -5,10 +5,10 @@
 //
 //--------------------------------------------------//
 //
-// * Filename: precompile.h
+// * Filename: precompiler.h
 // * Author: Wan Buwen
 // * Version: 1.0
-// * Date: 12/05/2022
+// * Date: 14/05/2022
 //
 //--------------------------------------------------//
 //
@@ -38,4 +38,3 @@ extern int include_file(FILE *fin, FILE *fout);
 extern int change_data(FILE *fin, FILE *fout);
 
 #endif
-
