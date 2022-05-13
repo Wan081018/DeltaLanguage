@@ -38,7 +38,7 @@ int ignore_comment(FILE *fin, FILE *fout){
 						fputc('\n', fout);
 						if(ch==EOF) return 0;
 						break;
-					} case '*':{
+					} case '*':{ // multiple line comment
 						int status=0;
 						ch=fgetc(fin);
 						while(ch!=EOF){
@@ -62,4 +62,3 @@ int ignore_comment(FILE *fin, FILE *fout){
 	}
 	return 0;
 }
-
