@@ -8,11 +8,11 @@
 // * Filename: error.h
 // * Author: Wan Buwen
 // * Version: 1.0
-// * Date: 12/06/2022
+// * Date: 14/05/2022
 //
 //--------------------------------------------------//
 //
-// * declaration of functions that handle the errors
+// * declaration of function that handle the errors
 //
 //==================================================//
 
@@ -20,10 +20,12 @@
 #define ERROR_H
 
 // errnum means the type of the error
+//
 //==================================================//
+//
+// 1. Unterminated comment.
 //
 //==================================================//
 extern int put_error(int errnum, ...);
 
 #endif
-
