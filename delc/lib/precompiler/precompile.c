@@ -8,7 +8,7 @@
 // * Filename: precompile.c
 // * Author: Wan Buwen
 // * Version: 1.0
-// * Date: 12/05/2022
+// * Date: 14/05/2022
 //
 //--------------------------------------------------//
 //
@@ -25,4 +25,3 @@ int precompile(FILE *fin, FILE *fout){
 	if(change_data(fopen("__TMP_if.delt", "r"), fout)) return 1;
 	return 0;
 }
-
