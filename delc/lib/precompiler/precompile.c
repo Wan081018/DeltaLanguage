@@ -17,7 +17,7 @@
 //
 //==================================================//
 
-#include "../../include/precompile.h"
+#include "../../include/precompiler.h"
 
 int precompile(FILE *fin, FILE *fout){
 	if(ignore_comment(fin, fopen("__TMP_ic.delt", "w"))) return 1;
