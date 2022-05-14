@@ -31,10 +31,10 @@ extern int precompile(FILE *fin, FILE *fout);
 // to ignore comments in the source file
 extern int ignore_comment(FILE *fin, FILE *fout);
 
-// to include the files into the souce file
+// to include the files into the souce file and do some other directions
 extern int include_file(FILE *fin, FILE *fout);
 
-// to change the datas in the souce file into binary form
-extern int change_data(FILE *fin, FILE *fout);
+// to change the specified text in the souce file into specified form
+extern int change_text(FILE *fin, FILE *fout);
 
 #endif
